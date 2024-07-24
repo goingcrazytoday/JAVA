@@ -1,0 +1,24 @@
+import java.util.*;
+class Reverse{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("enter the first username  ");
+    String check=sc.nextLine();
+    System.out.print("enter the string u want to chk  ");
+    String name=sc.nextLine();
+     int b=name.length();
+     int c=check.length();
+     int p=0;
+     if (c==b){
+         for(int i=b-1;i>=0;i--){
+             if(name.charAt(i)==check.charAt(i)){
+                 p+=1;}
+     }
+     if(p==b){
+        System.out.print("It is valid");
+    }
+    else{
+        System.out.print("its not valid"); } }
+    else{
+        System.out.print("not valid");
+    }   }}
