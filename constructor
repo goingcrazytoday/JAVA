@@ -1,0 +1,11 @@
+
+
+class bike {
+    bike()
+    {
+        System.out.print("Ducati,Ktm");
+    }
+    public static void main(String args[]) {
+        bike d=new bike();
+    }
+}
