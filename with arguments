@@ -1,0 +1,13 @@
+
+
+class demo {
+    void display(int a,int b)
+    {
+       int c=a+b;
+        System.out.print(c);
+    }
+    public static void main(String args[]) {
+        demo d=new demo();
+        d.display(4,3);
+    }
+}
