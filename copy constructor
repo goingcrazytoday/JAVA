@@ -1,0 +1,26 @@
+
+
+class bike {
+    int id;
+    String name;
+    int age;
+    bike(int a,String b)
+    {
+        id=a;
+        name=b;
+    }
+    bike(bike b){
+        id=b.id;
+        name=b.name;
+    }
+    void display(){
+        System.out.println(id+"  "+name);
+    }
+    public static void main(String args[]) {
+        bike d=new bike(10,"name");
+        bike d2=new bike(20,"pinky");
+        d.display();
+        d2.display();
+        
+    }
+}
