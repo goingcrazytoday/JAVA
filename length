@@ -1,0 +1,10 @@
+import java.lang.*;
+class Demo{
+    public static void main(String[] args){
+        String s=new String("java");
+         int b=s.length();
+        System.out.println(b);
+        System.out.print(s);
+        
+    }
+}
